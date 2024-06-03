@@ -8,7 +8,6 @@ In this project, we will predict the price of a stock using time series images. 
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Installation
@@ -31,6 +30,24 @@ For the scope of this project, I have taken the screenshot of the 6M button, cir
 
 (The file `s1.txt` is to store the list of stocks used, one per line. If there are any redundant stocks in `s1.txt`, run `duplicate_entries_check.py`, which will only keep the first instance of the redundant stocks in `s1_cleaned.txt`.)
 
+## Features
+- Automated image capture of stock time series data.
+- Image processing and classification.
+- Stock price prediction using encoder-decoder architecture.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/YourFeature).
+3. Commit your changes (git commit -m 'Add some feature').
+3. Push to the branch (git push origin feature/YourFeature).
+4. Open a Pull Request.
+
+## Contact
+
+- Rahil Maniar - rahilmaniar18@gmail.com
+- Project Link: https://github.com/Rahil-Maniar/Stock-Price-Predictor
+  
 ```bash
 # Clone the repository
 git clone https://github.com/Rahil-Maniar/Stock-Price-Predictor.git
